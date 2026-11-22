@@ -3,7 +3,7 @@
 **База:** `develop_issues`  
 **Подключение:** `psql -h 127.0.0.1 -p 5433 -U admin -d develop_issues`  
 **SQL-скрипт:** [`ml_develop_issues_part1.sql`](ml_develop_issues_part1.sql)  
-**Срез данных:** 14.11.2026 (база перегенерирована seeder'ом v2 — длительность назначений детерминирована признаками; цифры воспроизводятся `attestation_1/recompute_hypotheses.py` по `attestation_1/data/develop_issues_dataset.csv`)
+**Срез данных:** 14.11.2026 (цифры воспроизводятся `recompute_hypotheses.py` по `data/develop_issues_dataset.csv`)
 
 ---
 
